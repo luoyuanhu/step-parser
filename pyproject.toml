@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "step-parser"
+version = "1.0.0"
+description = "Pure Python STEP file parser for sheet metal geometry extraction — no external dependencies"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "smHelper", email = "dev@smhelper.gzyrwl.com"},
+]
+keywords = [
+    "step", "stp", "iso-10303", "cad", "parser",
+    "brep", "sheet-metal", "geometry", "manufacturing",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Manufacturing",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Computer Aided Design (CAD)",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.9"
+dependencies = []  # Zero external dependencies — pure standard library
+
+[project.urls]
+Homepage = "https://smhelper.gzyrwl.com"
+Repository = "https://github.com/smhelper/step-parser"
+"Issues" = "https://github.com/smhelper/step-parser/issues"
+
+[project.scripts]
+step-parser = "step_parser.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["step_parser*"]
