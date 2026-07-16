@@ -219,4 +219,4 @@ MIT — see [LICENSE](LICENSE) for details.
 
 - 🏠 [smHelper 官网](https://smhelper.gzyrwl.com)
 - 📦 [PyPI](https://pypi.org/project/step-parser/)
-- 🐛 [Issues](https://github.com/smhelper/step-parser/issues)
+- 🐛 [Issues](https://github.com/luoyuanhu/step-parser/issues)

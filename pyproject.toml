@@ -35,8 +35,8 @@ dependencies = []  # Zero external dependencies — pure standard library
 
 [project.urls]
 Homepage = "https://smhelper.gzyrwl.com"
-Repository = "https://github.com/smhelper/step-parser"
-"Issues" = "https://github.com/smhelper/step-parser/issues"
+Repository = "https://github.com/luoyuanhu/step-parser"
+"Issues" = "https://github.com/luoyuanhu/step-parser/issues"
 
 [project.scripts]
 step-parser = "step_parser.__main__:main"
