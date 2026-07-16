@@ -6,6 +6,12 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![PyPI](https://img.shields.io/badge/pypi-step--parser-orange.svg)](https://pypi.org/project/step-parser/)
 
+![smHelper demo](docs/demo.gif)
+
+*step-parser is the core STEP parsing engine powering [smHelper](https://smhelper.gzyrwl.com) — drag a STEP file, get a professional quote with 3D view in seconds.*
+
+---
+
 Parse ISO 10303-21 (STEP P21) CAD files with **zero external dependencies**. Extracts BREP geometry — bounding box, surface area, holes, bends, thickness — from STEP files exported by all major CAD systems.
 
 📦 `pip install step-parser` · 🐍 Python 3.9+ · 🪶 Pure standard library
